@@ -5,4 +5,4 @@ const house = [
     {address: 'lolka#2', price: 3213}
 ]
 
-console.log(house);
+console.log(housed);
