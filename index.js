@@ -1,8 +1,33 @@
-const house = [
-    {address: 'lolka#2', price: 3213},
-    {address: 'lolka#2', price: 3213},
-    {address: 'lolka#2', price: 3213},
-    {address: 'lolka#2', price: 3213}
-]
+function logData(data) {
+    console.log('Data:', data);
+}
 
-console.log(housed);
+logData({ key: 'value' });
+
+let count = 0;
+count += 1;
+
+const unusedVarTS = 'I am not used';
+
+async function fetchData(){
+    return Promise.resolve('Hello TypeScript');
+}
+
+fetchData().then(message => console.log(message));
+
+const greeting = "Hello, TypeScript Lint!";
+
+class Example {
+    private name;
+
+    constructor(name) {
+        this.name = name;
+    }
+
+    public getName(){
+        return this.name;
+    }
+}
+
+const example = new Example('Test');
+console.log(example.getName());
